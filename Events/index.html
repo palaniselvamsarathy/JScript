@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        button{
+            color: white;
+            display: flex;
+            width: 75%;
+            height: 30%;
+        }
+        /* .black{
+            color: black;
+        } */
+    </style>
+</head>
+<body>
+    <br><br>
+     <h1 style="text-align: center;">Javascript Events</h1>
+     <br>
+     <br>
+     <br>
+     <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3><b>OnMouseover:</b></h3>
+                <p style="font-size: 16px;">mouse over to change button background color</p>
+                <button id="mouseover" onmouseover="mouse_Over()" style="background-color: blue;">Mouse over</button>
+            </div>
+            <div class="col-md-4">
+                <h3><b>OnMouseout:</b></h3>
+                <p style="font-size: 16px;">mouse over to change button background color</p>
+                <button id="mouseout" onmouseout="mouse_Out()" style="background-color: green;">Mouse out</button>
+            </div>
+            <div class="col-md-4">
+                <h3><b>Onclick:</b></h3>
+                <p style="font-size: 16px;">Click to change button background color</p>
+                <button id="click" onclick="on_Click()" style="background-color: black;">Onclick</button>
+            </div>
+        </div>
+        <br>
+<br>
+<br>
+        <div class="row">
+            <div class="col-md-4">
+                <h3><b>Ondblclick:</b></h3>
+                <p style="font-size: 16px;">Double Click to change button background color</p>
+                <button id="dblclick" ondblclick="Ondbl_Click()" style="background-color: red;">Ondblclick</button>
+            </div>
+            <div class="col-md-4">
+                <h3><b>Onfocus:</b></h3>
+                <p style="font-size: 16px;">Click to change button background color</p>
+                <button id="focus" onfocus="on_Focus()" style="background-color: pink;"></button>
+            </div>
+            <div class="col-md-4">
+                <h3><b>Onblur:</b></h3>
+                <p style="font-size: 16px;">Click to change button background color</p>
+                <button id="blur" onblur="on_Blur()" style="background-color: yellow;"></button>
+            </div>
+        </div>
+     </div>
+<script>
+    function mouse_Over(){
+        document.getElementById('mouseover').style.backgroundColor = 'white';
+        document.getElementById('mouseover').style.color = 'black';
+    }
+
+    function mouse_Out(){
+        document.getElementById('mouseout').style.backgroundColor = 'black';
+    }
+
+    function on_Click(){
+        document.getElementById('click').style.backgroundColor = 'pink';
+        document.getElementById('click').style.color = 'black';
+    }
+
+    function Ondbl_Click(){
+        document.getElementById('dblclick').style.backgroundColor = 'yellow';
+        document.getElementById('dblclick').style.color = 'black';
+    }
+
+    function on_Focus(){
+        document.getElementById('focus').style.backgroundColor = 'white';
+    }
+
+    function on_Blur(){
+        document.getElementById('blur').style.backgroundColor = 'teal';
+        document.getElementById('blur').style.textTransform = 'UPPERCASE'
+    }
+
+
+</script>
+
+
+
+</body>
+</html>
