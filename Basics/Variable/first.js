@@ -40,7 +40,7 @@ console.log(a)
 
 var a= 20
 console.log(a)
-a = 40
+a = 400
 console.log(a)
 
 let b = 10
