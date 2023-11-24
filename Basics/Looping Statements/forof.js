@@ -4,6 +4,8 @@ let arr = ["Sarathy","Shafna","Sathish","Rass","A","B"]
 //     console.log(arr[i])
 // }
 
+// For array
+
 for(let array of arr){
     console.log(array)
 }
