@@ -4,4 +4,4 @@ console.log(a[1])
 console.log(a[7])
 
 console.log(a)
-console.table(a)
+console.table(a) 
