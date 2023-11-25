@@ -41,3 +41,9 @@ console.log(arr.substr(0,3))
 // use substring
 
 console.log(arr.substring(1,9))
+
+// Slice
+console.log(arr.slice(2,4))
+
+// It you gives a wrong index it gives a empty string
+// Negative indexing is possible only in slice
