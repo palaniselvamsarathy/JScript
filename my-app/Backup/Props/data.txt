@@ -1,3 +1,8 @@
+Props is type of object used to store the value of attributes of tag
+It is used to send the properties from one component to another component
+it is read-only type
+
+
 Props used to Communicating betweeen Components
 
 
