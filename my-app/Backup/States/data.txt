@@ -8,3 +8,15 @@ Without state We can update the value using forceUpdate()
 We never use forceUpdate()
 
 We have to use State and SetState()
+
+
+
+How to update Class Component State or How to Handle /Modify Class Component State
+=> First Create a state
+   => state ={msg:"Hi"}
+=> To update state use setState()
+    => this.ssetState({msg:"Good Morning"})
+=> To represent Current value
+    => this.state.name or whatever
+
+How to Update Functional Component or How to Handle/ Modify State
