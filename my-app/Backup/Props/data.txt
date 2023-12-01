@@ -1,0 +1,24 @@
+Props used to Communicating betweeen Components
+
+
+Send data
+Variable as a property to another component
+
+
+
+4 methods
+1:
+If it is Function to Function
+We can access CompA properties in CompB using props keyword
+JSON.stringify(props)
+
+2:
+
+If it is Class to Class
+We can access CompA properties in CompB using this.props keyword
+JSON.stirngify(this.props)
+
+3:
+
+If it is Func to Class
+We can access CompA properties in CompB using this.props keyword

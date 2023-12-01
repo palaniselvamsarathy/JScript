@@ -1,11 +1,10 @@
-
-
+import Navbar from './Navbar/Navbar'
+import Employee from './Employee/Employee'
 let App =()=>{
     return <>
-    
-        <h1>Hey there</h1>
-        <h2>How's your day?</h2>
+        <Navbar/>
+        <Employee/>
     </>
 }
 
-export default App 
+export default App
