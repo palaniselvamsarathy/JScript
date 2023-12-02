@@ -1,12 +1,12 @@
 import Navbar from './Navbar/Navbar'
-import Employee from './Employee/Employee'
+import Message  from './Message/Message'
 
 let App =()=>{
    
     return <>
         <Navbar/>
         <h1>This is Example for Event Binding </h1>
-        <Employee/>
+        <Message/>
     </>
 }
 

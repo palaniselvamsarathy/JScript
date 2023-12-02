@@ -20,3 +20,5 @@ How to update Class Component State or How to Handle /Modify Class Component Sta
     => this.state.name or whatever
 
 How to Update Functional Component or How to Handle/ Modify State
+
+Use Spread Operator to get all the data in the Object
