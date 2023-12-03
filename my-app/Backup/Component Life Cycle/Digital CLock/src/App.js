@@ -1,6 +1,6 @@
 import Navbar from './Navbar/Navbar'
-// import Employee from './Employee/Employee'
-import Employee from './Data/Employee'
+import Employee from './Employee/Employee'
+
 let App =()=>{
    
     return <>
