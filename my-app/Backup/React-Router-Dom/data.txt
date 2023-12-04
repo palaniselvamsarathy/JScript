@@ -1,0 +1,20 @@
+To develop single page application
+We have to use React router dom
+
+Link class is based on React Router Dom 
+
+It have two versions
+
+npm install react-router-dom@5
+
+We have to import Link in both versions
+
+And
+
+We have to import BrowserRouter as Router Switch Route from 'react-router-dom'
+in version 5 in App Component
+
+
+We have to import BrowserRouter as Router Routes Route from 'react-router-dom'
+
+in version 6 in App Component
