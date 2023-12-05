@@ -1,0 +1,18 @@
+API URl : https://jsonplaceholder.typicode.com/users
+Method Type : GET
+Access Type : Public
+Require Field : No
+
+We have to install one package
+npm i axios
+We have to import Wherever we need to add axios
+import Axios from 'axios'
+
+How to Consume Rest API in Front End?
+
+=> JavaScript - fetch
+=> React JS - Axios -3rd party package
+
+
+To test API there are many tools are there
+=>PostMan
