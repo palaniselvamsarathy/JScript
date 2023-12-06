@@ -1,0 +1,22 @@
+How we are invoking HTTP API?
+=> Axios.get().then().catch()
+
+Where / how we are executing?
+=> In react Application -Component either
+i) ComponentDId Mount= ()=>{
+
+}
+ii) Event Handler - such as 
+incrHandler=()=>{
+    Axios.get().then().catch()
+}
+
+*-----------------------*
+
+Invoke API in Redux Action?
+=>WE are using reux - thunk middleware
+=> INstall Thunk Module
+=> pass thunk object to your createStore.
+
+What is the use Compose with DevTools?
+=>To Enable the redux store
