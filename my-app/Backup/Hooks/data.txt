@@ -1,0 +1,19 @@
+For class Component to update state 
+We need This.setstate()
+Auto merge option is available
+
+
+For Functional Component To update the state 
+We need Hooks
+Auto Merge option is nit available - That's why we have to use Spread operator
+
+
+1. useState()   - To update the state value
+We need to import useState
+import React,{useState} from 'react'
+ => useState() always returns one destructured array
+ => Ex:- let [] = useState()
+ => Ex 1:- let [variable,setvariable] = useState()
+
+ => variable is storing content
+ => setvariable is a function used to update the variable content
