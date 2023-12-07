@@ -17,3 +17,8 @@ import React,{useState} from 'react'
 
  => variable is storing content
  => setvariable is a function used to update the variable content
+
+
+2. useDispatch() - To disptach an action from view
+
+import useDispatch() from 'react-redux'

@@ -12,8 +12,9 @@ export class Navbar extends Component {
                 <li className='nav-item'><Link to="/about" className='nav-link'>About</Link></li>
                 <li className='nav-item'><Link to="/services" className='nav-link'>Services</Link></li>
                 <li className='nav-item'><Link to="/contact" className='nav-link'>Contact</Link></li> */}
-                <li className='nav-item'><Link to="/useState" className='nav-link'>UseState Ex</Link></li>
-                <li className='nav-item'><Link to="/product" className='nav-link'>Product</Link></li>
+                {/* <li className='nav-item'><Link to="/useState" className='nav-link'>UseState Ex</Link></li>
+                <li className='nav-item'><Link to="/product" className='nav-link'>Product</Link></li> */}
+                <li className='nav-item'><Link to="/message" className='nav-link'>Message</Link></li>
             </ul>
         </div>
       </nav>

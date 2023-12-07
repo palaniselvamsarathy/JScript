@@ -20,3 +20,80 @@ Invoke API in Redux Action?
 
 What is the use Compose with DevTools?
 =>To Enable the redux store
+
+*-------------------------*
+
+WE can access and updt=ate another component using redux
+IN Functional Component We can use redux to access and update the component
+
+Redux is a store to store the state of the variables in our app
+
+*-------*
+Note:
+If i had some variable in my COmpA such as messgae="Hi"
+I have to access the variable in multiple components 
+=>  We have to use Redux or State MAnagement
+
+=>In Redux We have three Parts
+======> 1. Action
+======> 2. Reducer
+======> 3. store
+
+*=>The flow of react view to redux
+====> 1. React View -> Dispatch an action
+====> 2. Action will invoke Reducer
+====> 3. Reducer will update/create new store based on action type
+====> 4. Once Store (multiple states) is Updated, It will reflect back to view
+
+*---------------------------*
+The Requirements of having redux in sysytem
+
+Step 1: install required packages
+-----> redux
+-----> react-redux
+-----> redux-devtools-extension
+
+step 2: How to install packages?
+====> npm i redux-devtools-extension in your application
+====> npm i redux-devtools-extension //It is an optional one
+====> npm i react-redux
+====> npm i redux 
+
+Step 3: Install Chrome extension
+---> Install Redux devtools
+
+Step 4: Dispatch an redux action
+What is Action?
+-> Action is a function that return one actionable object
+EX:  
+let gmAction=()=>{
+    return {}
+}
+
+How to dispatch an Action?
+---> useDispatch() - hook in functional Component
+----> useDispatch() is belongs to react-redux
+import useDispatch() from 'react-redux'
+
+We have to create action type also;
+Ex:
+let GM = "GM"
+let gmAction = ()=>{
+    return {type:GM}
+}
+
+
+step 5: Action will invvokes Reducer
+
+What is Reducer?
+--> Reducer is a pure function
+Ex:-> let msgReduce = (state,action)=>{
+//msgReducer takes two arguments--- one is state and one is action
+}
+
+for this we have to imprt the action type 
+based on the action type it is going to update the state
+
+step 6: Reducer will create/ update one store
+
+What is Store?
