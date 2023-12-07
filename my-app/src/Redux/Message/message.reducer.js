@@ -3,7 +3,7 @@ let initialState = {
     message:"Hello"
 }
 
-let mesaageReducer = (state= initialState,action)=>{
+let messageReducer = (state= initialState,action)=>{
     // It is going to update store/state based on action type
     switch(action.type){
         case GM:
@@ -15,4 +15,4 @@ let mesaageReducer = (state= initialState,action)=>{
     }
 }
 
-export {mesaageReducer}
+export {messageReducer}

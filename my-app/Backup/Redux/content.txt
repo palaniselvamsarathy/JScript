@@ -83,7 +83,7 @@ let gmAction = ()=>{
 }
 
 
-step 5: Action will invvokes Reducer
+step 5: Action will invokes Reducer
 
 What is Reducer?
 --> Reducer is a pure function
@@ -91,7 +91,7 @@ Ex:-> let msgReduce = (state,action)=>{
 //msgReducer takes two arguments--- one is state and one is action
 }
 
-for this we have to imprt the action type 
+for this we have to import the action type 
 based on the action type it is going to update the state
 
 step 6: Reducer will create/ update one store

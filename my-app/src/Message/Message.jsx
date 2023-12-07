@@ -20,7 +20,7 @@ function Message() {
                     </div>
                     <div className="card-body">
                         <button className="btn btn-primary" onClick={gmHandler}>GM</button>
-                        <button className="btn btn-success" onClick={gnHandler}>GN</button>
+                        <button className="btn btn-success mr-5" onClick={gnHandler}>GN</button>
                     </div>
                 </div>
             </div>

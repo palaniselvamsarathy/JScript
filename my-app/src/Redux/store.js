@@ -1,5 +1,6 @@
 import {createStore} from 'redux'
-import { messageReducer } from './Message/mesaage.reducer'
-let store=createStore(messageReducer)
+import { messageReducer } from './Message/message.reducer'
+import {composeWithDevTools} from '@redux-devtools/extension'
+let store=createStore(messageReducer,composeWithDevTools())
 
 export {store}
