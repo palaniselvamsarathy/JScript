@@ -97,3 +97,12 @@ based on the action type it is going to update the state
 step 6: Reducer will create/ update one store
 
 What is Store?
+
+
+
+
+
+Packages:
+createStore() from redux
+useDispatch, Provider, useSelector from react-redux
+composeWithDevTools from redux-devTools-extension

@@ -9,7 +9,7 @@ let messageReducer = (state= initialState,action)=>{
         case GM:
             return {message:"Good Morning"}
         case GN:
-            return {message:"Good NIght"}
+            return {message:"Good Night"}
         default:
             return state
     }
