@@ -1,0 +1,27 @@
+How we are invoking HTTP API?
+=> Axios.get().then().catch()
+
+Where / how we are executing?
+=> In react Application -Component either
+i) ComponentDId Mount= ()=>{
+
+}
+ii) Event Handler - such as 
+incrHandler=()=>{
+    Axios.get().then().catch()
+}
+
+
+Requirement is:
+
+"invoke API in redux action"
+We are using redux-thunk middleware
+install thunk-Module
+pass the thunk object to createStore.
+
+
+1 => We have to install redux-thunk, logger,saga
+thunk and saga is moreover same
+
+npm install redux-thunk
+npm install redux-logger

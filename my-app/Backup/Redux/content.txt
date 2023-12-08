@@ -1,15 +1,3 @@
-How we are invoking HTTP API?
-=> Axios.get().then().catch()
-
-Where / how we are executing?
-=> In react Application -Component either
-i) ComponentDId Mount= ()=>{
-
-}
-ii) Event Handler - such as 
-incrHandler=()=>{
-    Axios.get().then().catch()
-}
 
 *-----------------------*
 

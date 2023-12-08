@@ -7,11 +7,9 @@ export {store}
 */
 
 
-import { createStore ,applyMiddleware} from "redux";
+import { createStore } from "redux";
 import { rootReducer } from "./rootReducer";
-import { thunk } from "redux-thunk";
-import logger from "redux-logger";
-let middleware = [logger, thunk] 
-let store = createStore(rootReducer,applyMiddleware(...middleware))
+
+let store = createStore(rootReducer)
 
 export {store}
