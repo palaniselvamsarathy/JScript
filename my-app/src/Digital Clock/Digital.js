@@ -15,7 +15,7 @@ const Digital = () => {
         <div className="row">
             <div className="col-md-6">
                 <div className="card">
-                    <div className="card-header">
+                    <div className="card-header bg-danger">
                         <h2>Digital Clock</h2>
                     </div>
                     <div className="card-body">
