@@ -20,7 +20,7 @@ function Message() {
             <div className="col-md-6">
                 <div className="card">
                     <div className="card-header">
-                        <h1>Message:{message}</h1>
+                        <h1>Message:{message.message}</h1>
                     </div>
                     <div className="card-body">
                         <button className="btn btn-primary" onClick={gmHandler}>GM</button>

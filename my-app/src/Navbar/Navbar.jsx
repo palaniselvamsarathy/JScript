@@ -16,6 +16,7 @@ export class Navbar extends Component {
                 <li className='nav-item'><Link to="/product" className='nav-link'>Product</Link></li> */}
                 <li className='nav-item'><Link to="/message" className='nav-link'>Message</Link></li>
                 <li className='nav-item'><Link to="/counter" className='nav-link'>Counter</Link></li>
+                <li className='nav-item'><Link to="/digital" className='nav-link'>Clock</Link></li>
             </ul>
         </div>
       </nav>

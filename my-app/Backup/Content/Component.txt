@@ -1,0 +1,50 @@
+React class component life cycle
+
+*
+class Test extends React.Component{
+    constrcutor(props){
+        super(props)
+        console.log("First Constructor will execute")
+    }
+
+    componentDidMount=()=>{
+        console.log("This will invoke after Render Method)
+    }
+
+    componentwillUpdate=()=>{
+        once component state is updated, it will goinng to execute
+    }
+
+    componentwillUnmont=()=>{
+        Removing component from DOM
+    }
+
+    render(){
+        console.log("This is going to execute Second")
+        return <></>
+    }
+}
+
+
+
+
+
+*-------------------*
+React Functional component life cycle
+
+instead of the three methods(componentDidMount,componentwillUnmont,componentwillUpdate)
+ in class component, WE have to use useEffect() hooks in functional class
+
+After return only useEffect hooks will execute
+
+function Test(){
+    useEffect()
+
+    return <></>
+}
+
+If you are not mentioning dependency array it keep on executing
+To avoid this one add one dependency
+useEffect(()=>{
+
+},[])
