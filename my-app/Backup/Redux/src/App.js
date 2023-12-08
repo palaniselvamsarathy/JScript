@@ -4,7 +4,6 @@ import Navbar from './Navbar/Navbar'
 import Message from './Message/Message'
 import { Provider } from 'react-redux'
 import { store } from './Redux/store'
-import Counter from './Counter/Counter'
 const App = () => {
   return (
     <div>
@@ -13,7 +12,6 @@ const App = () => {
           <Navbar/>
           <Routes>
             <Route path="/message" element={<Message/>}/>
-            <Route path="/counter" element={<Counter/>}/>
             {/* <Route path='/product' element={<Counter/>} /> */}
           </Routes>
         </Router>

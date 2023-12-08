@@ -14,7 +14,7 @@ function Message() {
         dispatch(gnAction())
     }
   return (
-      <div className="container mt-5 ml-5">
+      <div className="conatiner mt-5 ml-5">
         <pre>{JSON.stringify(message)}</pre>
         <div className="row">
             <div className="col-md-6">

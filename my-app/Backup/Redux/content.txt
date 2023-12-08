@@ -100,7 +100,9 @@ What is Store?
 
 
 
-
+step 7:
+store to view
+To read the store data -useSelactor() hook
 
 Packages:
 createStore() from redux

@@ -1,4 +1,4 @@
-const GM = "GM"
+const GM = "GN"
 const GN = "GN"
 
 let gmAction = ()=>{
