@@ -22,3 +22,11 @@ import React,{useState} from 'react'
 2. useDispatch() - To disptach an action from view
 
 import useDispatch() from 'react-redux'
+
+
+3. useEffect() - It is used as the alternative of three methods
+(componentDidMount, componentWillUNmount, ComponentwillUpdate)
+
+For the above three methods are used in class componentDidMountWe hav t use useEffect() in functional component
+
+4. useRef()- it is used to get the reference of a tag

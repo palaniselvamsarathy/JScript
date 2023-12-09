@@ -1,25 +1,22 @@
 import React from 'react'
-import {BrowserRouter as Router, Routes,Route} from 'react-router-dom'
 import Navbar from './Navbar/Navbar'
-import Message from './Message/Message'
-import { Provider } from 'react-redux'
-import { store } from './Redux/store'
-import Counter from './Counter/Counter'
-import Digital from './Digital Clock/Digital'
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+import Login from './Form/Login'
 const App = () => {
   return (
     <div>
-      <Provider store={store}>
+
         <Router>
           <Navbar/>
           <Routes>
-            <Route path="/digital" element={<Digital/>}/>
+            {/* <Route path="/digital" element={<Digital/>}/>
             <Route path="/message" element={<Message/>}/>
-            <Route path="/counter" element={<Counter/>}/>
+            <Route path="/counter" element={<Counter/>}/> */}
             {/* <Route path='/product' element={<Counter/>} /> */}
+            <Route path='/form' element={<Login/>} />
           </Routes>
         </Router>
-      </Provider>
+
     </div>
   )
 }
