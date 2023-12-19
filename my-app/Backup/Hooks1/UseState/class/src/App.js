@@ -3,8 +3,6 @@ import Navbar from './Navbar/Navbar'
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import Login from './Form/Login'
 import ClassCounter from './Components/ClassCounter'
-// import HookCounter from './Components/HookCounter'
-import HookCounter2 from './Components/HookCounter2'
 const App = () => {
   return (
     <div>
@@ -20,9 +18,6 @@ const App = () => {
             <Route path="/hooks" element={<ClassCounter/>}/>
           </Routes>
         </Router>
-
-        {/* <HookCounter/> */}
-        <HookCounter2/>
 
     </div>
   )

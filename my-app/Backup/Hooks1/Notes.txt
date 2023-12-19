@@ -1,0 +1,22 @@
+Hooks is used in functional component 
+
+We can update the state value in hooks...
+
+Hooks is like props only
+
+-------------
+Why Hooks?
+Bcaz it can update the state values
+It avoids changing in environment
+
+------------
+Hooks basically defines as destructured array
+Ex: const [arr, setArr]= useStte()
+-----------
+Rules:
+1. Only call the hooks at the top level
+2. Only call hook sfrom the react functions
+****************************************************************************
+1. useState()
+Ex: const [count,setCount]= useState()
+
