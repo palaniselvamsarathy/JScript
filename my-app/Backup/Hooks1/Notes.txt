@@ -25,3 +25,22 @@ Ex: const [count,setCount]= useState()
 => It returns tow elements
  -> 1. value
  -> 2. Setter Function
+
+******************************************************************************
+2. useEffect()
+
+Consider updating the doc title to the current counter value
+Ex: in class,
+    componentDidMount(){
+        doc.title = `You clicked ${this.state.count} times`
+    }
+    componentDidUpdate(){
+        doc.title = `You clicked ${this.state.count} times`
+    }
+In class component We have component life cycle like Componentdidupdate, componentwillmount, componentwillunmount and so on
+We can use "useEffect() " hook to avoid the above side effects
+-> We can perform entire Component Life Cycle in the useEffect() Hook
+
+Proper Explanantion of useEffect():
+-> 1. This lets you perform side effects in functioal components
+-> 2. It is close replacemnet for the componentdidmount, componentwillmount, componentwillunmount
