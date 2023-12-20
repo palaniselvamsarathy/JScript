@@ -58,3 +58,6 @@ inordeer to conditionally ru specify the second parameterr as array
 
 ---> Run effects only once
 --> The cleanup code cancelling subscription --> use return and remove
+
+---> If youu want to watch the variable add it to the dependecies []
+---> If you want to use the function within useEffect(), Just define the function within useEffect()
