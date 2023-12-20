@@ -44,3 +44,17 @@ We can use "useEffect() " hook to avoid the above side effects
 Proper Explanantion of useEffect():
 -> 1. This lets you perform side effects in functioal components
 -> 2. It is close replacemnet for the componentdidmount, componentwillmount, componentwillunmount
+
+useEffect() takes an argument.
+it executes after render method is executed
+it runs after every render of the component
+
+for conditionally executing an effecting we use one extra dependencies like one array
+Ex: useEffect(()=>{
+
+},[])
+
+inordeer to conditionally ru specify the second parameterr as array
+
+---> Run effects only once
+--> The cleanup code cancelling subscription --> use return and remove

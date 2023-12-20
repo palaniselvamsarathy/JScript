@@ -1,8 +1,10 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
-import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
-import ClassCounter from './Components/ClassCounter'
-
+import {BrowserRouter as Router,Routes} from 'react-router-dom'
+// import Hookone from './Components/Hookone'
+// import Hook from './Components/Hook'
+// import HookMouse from './Components/HookMouse'
+import MouseContainer from './Components/MouseContainer'
 const App = () => {
   return (
     <div>
@@ -15,10 +17,13 @@ const App = () => {
             <Route path="/counter" element={<Counter/>}/> */}
             {/* <Route path='/product' element={<Counter/>} /> */}
             {/* <Route path='/form' element={<Login/>} /> */}
-            <Route path="/hooks" element={<ClassCounter/>}/>
+            {/* <Route path="/hooks" element={<ClassCounter/>}/> */}
           </Routes>
         </Router>
-
+            {/* <Hook/> */}
+            {/* <Hookone/> */}
+            {/* <HookMouse/> */}
+            <MouseContainer/>
     </div>
   )
 }
