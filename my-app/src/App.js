@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
 import {BrowserRouter as Router,Routes} from 'react-router-dom'
-import DataFetching from './Component/DataFetching'
+// import DataFetching from './Component/DataFetching'
 const App = () => {
   return (
     <div>
@@ -17,7 +17,7 @@ const App = () => {
             {/* <Route path="/hooks" element={<ClassCounter/>}/> */}
           </Routes>
         </Router>
-        <DataFetching/>
+        {/* <DataFetching/> */}
     </div>
   )
 }
