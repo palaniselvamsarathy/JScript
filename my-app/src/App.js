@@ -4,7 +4,9 @@ import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import Login from './Form/Login'
 import ClassCounter from './Components/ClassCounter'
 // import HookCounter from './Components/HookCounter'
-import HookCounter2 from './Components/HookCounter2'
+// import HookCounter2 from './Components/HookCounter2'
+// import HookCounter3 from './Components/HookCounter3'
+import HookCounter4 from './Components/HookCounter4'
 const App = () => {
   return (
     <div>
@@ -22,7 +24,7 @@ const App = () => {
         </Router>
 
         {/* <HookCounter/> */}
-        <HookCounter2/>
+        <HookCounter4/>
 
     </div>
   )

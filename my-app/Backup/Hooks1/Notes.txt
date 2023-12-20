@@ -18,5 +18,10 @@ Rules:
 2. Only call hook sfrom the react functions
 ****************************************************************************
 1. useState()
+it lets us to add state to functional components
+-> IN class the state always an object. But in functional it can be object array number string boolean
 Ex: const [count,setCount]= useState()
-
+=> use spread operator for get the rest of the data in the object
+=> It returns tow elements
+ -> 1. value
+ -> 2. Setter Function
