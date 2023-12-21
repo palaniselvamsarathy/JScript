@@ -1,7 +1,10 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
 import {BrowserRouter as Router,Routes} from 'react-router-dom'
-// import DataFetching from './Component/DataFetching'
+import ComponentC from './Component/ComponentC'
+
+const UserContext = React.createContext()
+
 const App = () => {
   return (
     <div>
@@ -17,7 +20,9 @@ const App = () => {
             {/* <Route path="/hooks" element={<ClassCounter/>}/> */}
           </Routes>
         </Router>
-        {/* <DataFetching/> */}
+        <UserContext.Provider value={'sarathy'}>
+        <ComponentC/>
+        </UserContext.Provider>
     </div>
   )
 }

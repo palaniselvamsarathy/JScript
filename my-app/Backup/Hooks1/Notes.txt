@@ -61,3 +61,18 @@ inordeer to conditionally ru specify the second parameterr as array
 
 ---> If youu want to watch the variable add it to the dependecies []
 ---> If you want to use the function within useEffect(), Just define the function within useEffect()
+
+******************************************************************************************************************
+
+3. useContext()
+
+What is react context?
+--->Context provides a way to pass data throught the componenet treee without having to pass props down manually at every level
+    (If we have nested component , and we need to share the details of one component to another component we use the props method,
+     But instead of props method we can use useContext() Hook)
+
+3 steps to implement context...
+1--> Create a context in the app component    
+Why react context?
+
+How context hook works in react?
