@@ -79,3 +79,25 @@ What is react context?
 We have two ways to render a context
 --> import useState
 --> import necessary contxt like import channelcontext from "../App"
+******************************************************************************************
+
+4.useReducer()
+
+what is useReducer?
+it is hook used for statemanagement
+it is an alternative for useState()
+diff...?
+useState is built using useReducer(). So useReducer is primitive hook
+
+reduce in JS                               ||| useReducer in React
+array.reduce(reducer, initialvalue)        ||| useReducer(reducer, initialState)
+singleValue = reducer(acc, itemValue)      ||| newState = reducer(currentState, action)
+* reduce method returns a single value     ||| it returns a pair of values [newState, dispatch]
+
+We hve to import useReducer from react
+
+///usereducer with useContext
+----> sometimes we want to share the data between components
+s1: create counter using usereducer
+s2: consume the data
+////When to useReducer or useState?////
