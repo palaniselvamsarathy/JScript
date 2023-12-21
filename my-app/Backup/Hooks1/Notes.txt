@@ -101,3 +101,14 @@ We hve to import useReducer from react
 s1: create counter using usereducer
 s2: consume the data
 ////When to useReducer or useState?////
+
+==> both of them are meant to use for state management
+    -----------------------------------------------------------------------------
+  |  Scenario                     | usestate            |    useReducer          |
+    -----------------------------------------------------------------------------
+  |  Type of state                | Number,string,bool  | Object or Array        |
+  |  No of transitions            | one or two          | Too many               |
+  |  Related to state transitions | No                  | Yes                    |
+  |  Business Logic               | No business logic   | Complex business logic |
+  |  Local vs global              | Local               | Global                 | 
+    ----------------------------------------------------------------------------
