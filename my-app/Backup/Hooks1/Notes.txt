@@ -72,7 +72,10 @@ What is react context?
      But instead of props method we can use useContext() Hook)
 
 3 steps to implement context...
-1--> Create a context in the app component    
-Why react context?
+1--> Create a context in the app component  
+2--> Create UserContext.provider
+3--> consume the component values  
 
-How context hook works in react?
+We have two ways to render a context
+--> import useState
+--> import necessary contxt like import channelcontext from "../App"
