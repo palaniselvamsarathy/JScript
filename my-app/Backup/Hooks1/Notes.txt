@@ -156,3 +156,38 @@ To solve this
 
 if you need to cache a func use useCallback()
 if you need to cache a result of an invoked func use useMemo()
+
+
+****************************************************************************************
+7.useRef()
+used to access DOM nodes in functional component 
+----> import useRef
+----> We can use that for Dom nodes like focus
+----> We can clear the interval within the effect hook but not outside of the effect hook ...
+Here comes useRef
+----> It doesn't cayse any changes while its render
+
+*******************************
+8.useImperativeHandle()
+import useImperativeHandle, Ref, forwardref
+--> first we have to know about forwarding Ref
+--> Forwarding the unused content to the parent component
+---> we first have to understand the concept of forwarding refs using the React.forwardRef function. This allows us to pass refs to nested components, because we cannot achieve so using the ref keyword. After that, we will make use of the useImperativeHandle hook inside an input to modify the forwarded ref by exposing a custom focusAndBlur property. The useImperativeHandle hook will allow us to call that method from the parent component using a button.
+****************************
+9.useLayoutEffect()
+It runs before the browser  renders.... But useEffect ender after all the compilation
+It is almost similar to useEffect()
+the only diff is blocking visual updates,like paint before rendering
+*****************************
+10.usedebugValue()
+-> import usedebugValue
+-> it allows you to display label for a custom hook in the React devTools
+-> LOcal storage value is changes in consoles component
+*************************************************************************************************************************************************************************
+11. Custom Hooks()
+-It is a JS function whose name starts with use
+- it can call other hooks if required
+Why?
+Share logic b/w components
+
+
