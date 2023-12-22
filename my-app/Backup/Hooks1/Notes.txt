@@ -141,3 +141,18 @@ How to use?
 
 Why is useCallback worse?
 Bcaz we have to define a function and a dependecies array
+useCallback is used for performance optimization
+
+******************************************************************************************
+6.useMemo()
+--> useMemo() hook is also used for performance optimization
+everytime the state update if the function is called
+so we need to tell react do not calculate unnecessary functions or componnets
+
+To solve this
+1.import useMemo()
+2. add function useMemo()
+-> 2 arguments FA function and dependencies
+
+if you need to cache a func use useCallback()
+if you need to cache a result of an invoked func use useMemo()
