@@ -112,3 +112,32 @@ s2: consume the data
   |  Business Logic               | No business logic   | Complex business logic |
   |  Local vs global              | Local               | Global                 | 
     ----------------------------------------------------------------------------
+
+
+
+*********************************************************************************************
+5. useCallback()
+--> first of all , lets take an example if you hav ea multiple components and you are clicking something 
+It will rendering the entire component list...
+--> But we dont have to re render the unwanted component
+To solve this we use, [react.memo]
+-> react.memo is nothing but a higher order component that will prevent functional component rerendering
+the state value also not changed
+===>> So we have to export like React.Memo(component)
+By doing this re render is happen within the component
+
+Here only """useCallback() hook""" is introduced
+What is useCallback()?
+it will return memorized version of the callback functions that only changes if one of the dependecies has changed
+
+Why?
+It os useful passing callbacks to optimized child components taht rely on reference equality to ""prevent unnecessary renders""
+
+How to use?
+1.import useCallback from react
+2. add the function useCallback()
+   it have two parameters 
+   one is fat arrow function another one is dependecy
+
+Why is useCallback worse?
+Bcaz we have to define a function and a dependecies array
