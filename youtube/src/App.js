@@ -1,17 +1,11 @@
-
-
-import Header from './Component/Header';
-import Home from './Component/Home';
-import Comp from './Component/Comp';
+import React from "react";
+import Header from "./Header";
+import "./App.css"
 function App() {
   return (
     <div className="App">
       <h1>App Component</h1>
-      <Header/>
-      <br />
-      <Comp/>
-      <br />
-      <Home/>
+      <Header name="Samsung" price="29999"/>
     </div>
   );
 }
