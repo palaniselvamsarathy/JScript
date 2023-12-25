@@ -20,7 +20,6 @@ function Home() {
 
       <br />
       <h2>{name}</h2>
-    <h3>Product Component</h3>
     </div>
   )
 }
